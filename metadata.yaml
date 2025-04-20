@@ -17,6 +17,5 @@ tags:
   - 特惠
 dependencies:
   - aiohttp
-  - aiocache
   - APScheduler
   - pytz
