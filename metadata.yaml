@@ -2,13 +2,12 @@ name: steam_plus
 version: 0.3.0
 author: IGCrystal
 description: |
-  Steam Plus 增强插件，提供全方位 Steam 平台体验：
+  Steam Plus 插件，支持高级游戏信息、好友状态监控与个性化通知:
   - 玩家信息、游戏库、成就统计查询
   - 游戏新闻、特惠、促销活动推送
   - 市场物品价格监控与提醒
   - 好友状态（上线/游戏中）监控
   - 私聊&群聊通知，支持自定义过滤
-  - 异步缓存与智能调度
 repository: https://github.com/IGCrystal/astrbot_plugin_steam
 tags:
   - steam

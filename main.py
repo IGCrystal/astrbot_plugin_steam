@@ -2,7 +2,7 @@ import asyncio
 import json
 import time
 from datetime import datetime, timedelta
-import pytz
+import pytz  # 恢复使用pytz
 
 from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star, register
