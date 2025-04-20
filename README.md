@@ -2,6 +2,8 @@
 
 ![Steam Plus 版本](https://img.shields.io/badge/版本-0.3.0-blue)
 
+<img src="https://count.getloli.com/@:IGCrystal" alt=":IGCrystal" />
+
 为AstrBot提供全方位Steam集成体验的高级插件，支持好友状态监控、游戏新闻推送、特惠通知、成就查询及市场价格监控等功能。
 
 ## 功能特色
