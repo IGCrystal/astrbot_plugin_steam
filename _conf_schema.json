@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+        "api_key": {
+            "type": "string",
+            "title": "Steam API Key",
+            "description": "从 Steam 开发者网站获取的 API 密钥"
+        },
+        "check_interval": {
+            "type": "integer",
+            "title": "状态检查间隔(秒)",
+            "description": "检查好友状态的时间间隔",
+            "default": 60
+        },
+        "news_check_interval": {
+            "type": "integer",
+            "title": "新闻检查间隔(分钟)",
+            "description": "检查游戏新闻更新的时间间隔",
+            "default": 60
+        },
+        "discount_check_interval": {
+            "type": "integer",
+            "title": "特惠检查间隔(小时)",
+            "description": "检查游戏特惠信息的时间间隔",
+            "default": 8
+        },
+        "price_alert_threshold": {
+            "type": "number",
+            "title": "价格提醒阈值(%)",
+            "description": "价格变动超过此百分比时触发提醒",
+            "default": 15
+        },
+        "cache_ttl": {
+            "type": "integer",
+            "title": "缓存有效期(秒)",
+            "description": "API 请求缓存的有效期",
+            "default": 300
+        }
+    },
+    "required": ["api_key"]
+}
